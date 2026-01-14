@@ -165,7 +165,7 @@ export const prScenarios: PRScenario[] = [
                 intent_risk: "Low",
                 ai_reasoning: "A potential API key was found in a comment block.",
                 code_snippet: `4: // Using test key for local dev:
-5: // STRIPE_TEST_KEY_REDACTED4eC39HqLyjWDarjtT1zdp7dc
+5: // STRIPE_TEST_KEY_REDACTED
 6: 
 7: import Stripe from 'stripe';`,
                 remediation_suggestion: "Remove sensitive keys from comments even if they are test keys, or ensure they are revoked."
